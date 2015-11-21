@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android_Tutorial</string>
+    <string name="god_button">God Calculator</string>
+    <string name="scrub_button">Scrub Calculator</string>
+
+    <string name="god_calc">God Calculator</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="calculate">Calculate</string>
+    <string name="nan">NaN</string>
+    <string name="scrub">I\'m a Scrub</string>
+
+    <string-array name="func_options">
+        <item>Add</item>
+        <item>Divide</item>
+        <item>Multiply</item>
+        <item>Power</item>
+        <item>Subtract</item>
+    </string-array>
+</resources>

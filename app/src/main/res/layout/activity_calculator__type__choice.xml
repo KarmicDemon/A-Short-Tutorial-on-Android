@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/option_select"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Select your application" />
+
+    <Button
+        android:id="@+id/scrub_button"
+        android:layout_below="@+id/option_select"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_width="wrap_content"
+        android:text="@string/scrub_button" />
+
+    <Button
+        android:id="@+id/god_button"
+        android:layout_below="@+id/scrub_button"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:text="@string/god_button"/>
+</RelativeLayout>
